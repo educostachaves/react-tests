@@ -22,16 +22,10 @@ module.exports = function (grunt) {
                 src: [
                     '<%= config.srcPath %>/javascripts/libs/vendor/modernizr.js',
                     '<%= config.srcPath %>/javascripts/libs/vendor/jquery.js',
-                    '<%= config.srcPath %>/javascripts/libs/vendor/jquery.validate.min.js',
-                    '<%= config.srcPath %>/javascripts/libs/vendor/jquery.validate.unobtrusive.js',
-                    '<%= config.srcPath %>/javascripts/libs/vendor/jquery.unobtrusive-ajax.js',
-                    '<%= config.srcPath %>/javascripts/libs/vendor/fastclick.js',
-                    '<%= config.srcPath %>/javascripts/libs/vendor/InitUnveilImgLazyLoader.js',
-                    '<%= config.srcPath %>/javascripts/libs/metrics/modified-mixpanel.js',
-                    '<%= config.srcPath %>/javascripts/libs/metrics/google-tag-manager.js',
+                    '<%= config.srcPath %>/javascripts/libs/vendor/fastclick.js'
                 ],
                 dest: '<%= config.buildPath %>/javascripts/libs.js'
-            }
+            },
         },
 
         // Minify all JS "compress"
